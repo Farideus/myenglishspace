@@ -1,38 +1,60 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
   margin: 0;
-  color: #333;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #ffffff;
+  background-image: url('https://i.imgur.com/tUOyY1x.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6); /* полупрозрачная тень для читаемости */
+  padding: 40px;
+  min-height: 100vh;
 }
 
 header {
-  background-color: #4a635f;
-  color: white;
-  padding: 20px;
   text-align: center;
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-size: 48px;
+  color: #ffeb3b;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 24px;
+  color: #80d8ff;
 }
 
 nav a {
-  color: white;
-  margin: 0 10px;
+  margin: 0 15px;
+  color: #ffffff;
   text-decoration: none;
   font-weight: bold;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #ff8a65;
 }
 
 main {
-  padding: 20px;
-}
-
-section {
-  background-color: white;
-  margin-bottom: 20px;
-  padding: 15px;
-  border-radius: 10px;
-}
-
-footer {
-  background-color: #4a635f;
-  color: white;
   text-align: center;
-  padding: 10px;
+}
+
+section h2 {
+  font-size: 32px;
+  color: #ffca28;
+}
+
+section p {
+  font-size: 18px;
+  color: #e0e0e0;
+  max-width: 600px;
+  margin: 0 auto;
 }
